@@ -118,6 +118,9 @@ padding: 5px;
 .text-red {
 	color: maroon;
 }
+.align-middle{
+	text-align: center;
+}
 
 /* The animation code of the text "Hungary"*/
 @keyframes hungary {
