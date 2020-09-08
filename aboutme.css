@@ -6,7 +6,7 @@ html, body {
 	width:100%;
 	min-height: 100%;
 	height: auto;
-	
+	font-size: 25px;
 	background: linear-gradient(0deg, cyan, blue);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -20,7 +20,7 @@ html, body {
 .header {
   grid-area: header;
   background-color: #0d1453;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
   font-size: 35px;
 }
@@ -75,4 +75,10 @@ html, body {
       'right right right right right right' 
       'footer footer footer footer footer footer';
   }
+}
+h2{
+    color: rgb(43, 226, 104);
+    text-align: center;
+    font-family: cursive;
+    font-size: 45px;
 }
