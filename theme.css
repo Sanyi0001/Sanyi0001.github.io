@@ -263,6 +263,30 @@ padding: 5px;
 	margin-top: 10px;
 	
   }
+
+  #file1 {
+	
+	border-radius: 1px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+	float: right !important;
+	height: 50px;
+	 background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #f44, #09c);
+
+    border-radius: 2px; 
+	background-size: 35px 20px, 100% 100%, 100% 100%;
+	float: left !important;
+	width: 87%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	
+  }
   .semi-bigText {
 	font-size: 35px;
   }
@@ -320,3 +344,9 @@ padding: 5px;
   .item1 { grid-area: left; }
   .item2 { grid-area: middle; }
   .item3 { grid-area: right; }
+
+  .eclabel{
+	font-size: 50px;
+	color: rgb(0, 0, 0);
+	float: left;
+  }

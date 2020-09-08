@@ -119,44 +119,27 @@
             <td>2 written exams</td>
             <td>-</td>
           </tr>
+          <tr>
+            <td rowspan="2">N/A</td>
+            <td>IT Personality</td>
+            <td>2.5</td>
+            <td>Portfolio</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>HZ Personality</td>
+            <td>2.5</td>
+            <td>Portfolio</td>
+            <td>-</td>
+          </tr>
       </table>
       <div>
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
-
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Month', 'Study Points', 'Required', 'Goal'],
-          ['1',  0,      45, 60],
-          ['2',  0,      45, 60],
-          ['3',  0,      45, 60],
-          ['4',  0,      45, 60],
-          ['5',  0,      45, 60],
-          ['6',  0,      45, 60],
-          ['7',  0,      45, 60],
-          ['8',  0,      45, 60],
-          ['9',  0,      45, 60],
-          ['10',  0,      45, 60],
-          ['11',  0,      45, 60],
-          ['12',  0,      45, 60],
-        ]);
-
-        var options = {
-          title: 'Study Points',
-          curveType: 'function',
-          legend: { position: 'bottom' }
-        };
-
-        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
-
-        chart.draw(data, options);
-      }
-    </script>
-
-<div id="curve_chart" class="chart"></div>
+        <label  class="eclabel" for="file1">EC-bar:</label>
+        <progress class="ecprogress" id="file1" value="50" max="100"></progress><br>
+        
       </div>
+      <div>
+       
       <h1 class="uppercase center">study guide</h1>
 			<div class="studyguidelinks center">
 				<p>

@@ -103,6 +103,7 @@ html, body {
   text-align: center;
   text-align: justify;
   text-justify: inter-word;
+  
 }
 
 /* Style the left column */
@@ -144,4 +145,5 @@ h2{
     text-align: center;
     font-family: cursive;
     font-size: 45px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
