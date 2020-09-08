@@ -309,3 +309,14 @@ padding: 5px;
   .chart {
 	  width: 96%;
   }
+  .grid-container{
+	  display: grid;
+	  grid-template-columns: 25% 50% 25%;
+	  /* grid-template-rows: 80px 200px; */
+	  align-content: center;
+	  grid-gap: 20px;
+	  grid-template-areas: 'left center right';
+  }
+  .item1 { grid-area: left; }
+  .item2 { grid-area: middle; }
+  .item3 { grid-area: right; }
