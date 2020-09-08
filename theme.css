@@ -305,5 +305,7 @@ padding: 5px;
   #t01 th {
 	color: white;
 	background-color: black;
-	
+  }
+  .chart {
+	  width: 96%;
   }
