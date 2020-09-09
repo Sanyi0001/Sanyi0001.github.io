@@ -84,16 +84,14 @@ html, body {
 	
 }
 .left {
-
-	
 	font-size: 27px;
 	text-align: center;
+	width: 40%;
 }
 .right {
-
- 
 	font-size: 27px;
 	text-align: center;
+	width: 40%;
 }
 li {
 	margin: 20px;
@@ -226,12 +224,12 @@ padding: 5px;
 	from{-webkit-transform: rotateY(0deg);}
 	to{-webkit-transform: rotateY(360deg);}
  }
- .imageSpin{
+ .image_spin_holder{
 	animation-name: spin;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
 	animation-duration: 10s;
-	
+	width: 20%;
 	-webkit-animation-name: spin;
 	animation-timing-function: ease-in-out;
 	-webkit-animation-iteration-count: infinite;
@@ -241,6 +239,7 @@ padding: 5px;
 	align-content: center;
 	margin-left: 45%;
 }
+
 
 #file {
 	background-color: rgba(238, 238, 238, 0.158);
@@ -349,4 +348,14 @@ padding: 5px;
 	font-size: 50px;
 	color: rgb(0, 0, 0);
 	float: left;
+  }
+  .noborder_for_table{
+	border: 0px;
+  }
+  /*#profile_left_section{
+	text-align: center; 
+	padding-left: 45px
+  }*/
+  .inside_list_position{
+	list-style-position:inside
   }
