@@ -121,14 +121,6 @@
 					grid-area: right;
 				}
 				
-				/* Style the footer */
-				.footer {
-					grid-area: footer;
-					background-color: transparent;
-					padding: 10px;
-					text-align: center;
-				}
-				
 				/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 				@media (max-width: 600px) {
 					.grid-container  {
@@ -140,6 +132,8 @@
 						'footer footer footer footer footer footer';
 					}
 				}
+
+				/* Style the h2 element */
 				h2{
 					color: rgb(43, 226, 104);
 					text-align: center;
