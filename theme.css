@@ -256,11 +256,12 @@ a {
 	margin-top: 10px;
 }
 
+/* Design for the progressbar in the dashboard for the EC */
 #ecbar {
-	background-image: linear-gradient(90deg, red, red, RED, green, green);
+	background-image: linear-gradient(90deg, red, red, red, green, green);
 	border-radius: 1px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-	width: 1230px;
+	width: 1200px; /* Adjust this to set the right walue for the EC-progressbar (12px = 1%) */
 	height: 50px;
 }
 
