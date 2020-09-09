@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div class="dropdown">
-		<button class="dropbtn vertical-center" style="text-align: center;">MENU</button>
+		<button class="dropbtn vertical-center">MENU</button>
 		<div class="dropdown-content">
 			<a href="index.html">Home page</a>
 			<a href="profile.html">Profile</a>
@@ -23,14 +23,15 @@
 	<a href="aboutme.html">	<img class="imgprofile" border-radius:50% src="me.jpg" height="100" width="100"
 		alt="A picture of me">
 	</a>
+	
 	<div class="divFlex">
-		<div class="eclabel">EC-progress:</div>
-		<div class="ecbarmain">elem 2</div>
-		<div class="ecbarprogress"></div>
-		<div class="ecbarover45"></div>
-	</div>
-	<table id="t01">
 		<caption><h1>Study Monitor</h1></caption>
+		<progress id="ecbar" value="45" max="60"></progress><br>
+		
+	</div>
+	
+	<table id="t01">
+		
 		<tr>
 			<th>Quartile</th>
 			<th>Course</th>
@@ -42,26 +43,26 @@
 			<td rowspan="3">1</td>
 			<td>Programme and Career Orientation</td>
 			<td>2.5</td>
-			<td>Assessment</td>
+			<td class="completed">Assessment</td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td>Computer Science Basics</td>
 			<td>7.5</td>
-			<td>Written</td>
+			<td class="completed">Written</td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td>Programming Basics</td>
 			<td>5</td>
-			<td>Case study</td>
+			<td class="failed">Case study</td>
 			<td>-</td>
 		</tr>
 		<tr>
 			<td rowspan="3">2</td>
 			<td rowspan="2">Object Oriented Programming</td>
 			<td rowspan="2">10</td>
-			<td>Case study</td>
+			<td class="completed">Case study</td>
 			<td>-</td>
 		</tr>
 		<tr>
