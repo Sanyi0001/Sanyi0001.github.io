@@ -67,7 +67,7 @@ img {
 html, body {
 	margin: 20;
 	background-size: cover;
- 	overflow-x: hidden;
+	overflow-x: hidden;
 	margin:auto;
 	width:100%;
 	min-height: 100%;
@@ -125,8 +125,8 @@ a {
 
 /* Default padding for all elements */
 * {
-padding: 5px;
-
+	padding: 5px;
+	
 }
 .center {
 	text-align: center;
@@ -200,21 +200,23 @@ padding: 5px;
 /* Spinning image for the profile page */
 @keyframes spin {
 	from{
-	transform: rotateY(0deg);
- 
+		transform: rotateY(0deg);
+		
 	}
 	to{
-	transform: rotateY(360deg);
- 
+		transform: rotateY(360deg);
+		
 	}
- }
+}
 
- 
- @-webkit-keyframes spin{
+/* For full spin */
+@-webkit-keyframes spin{
 	from{-webkit-transform: rotateY(0deg);}
 	to{-webkit-transform: rotateY(360deg);}
- }
- .image_spin_holder{
+}
+
+/* Adjusts properties for the spinning image */
+.image_spin_holder{
 	animation-name: spin;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: infinite;
@@ -224,126 +226,142 @@ padding: 5px;
 	animation-timing-function: ease-in-out;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-duration: 10s;
- }
+}
+
+/* Image on the profile page */
 .imgprofile{
 	align-content: center;
 	margin-left: 45%;
 }
 
-
+/* Design for all progressbar in the home page */
 #file {
 	background-color: rgba(238, 238, 238, 0.158);
 	border-radius: 1px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 	width: 250px;
 	height: 30px;
-	 background-image:
-	   -webkit-linear-gradient(-45deg, 
-	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
-	                           rgba(0,0, 0, .1) 66%, transparent 66%),
-	   -webkit-linear-gradient(top, 
-	                           rgba(255, 255, 255, .25), 
-	                           rgba(0, 0, 0, .25)),
-	   -webkit-linear-gradient(left, #f44, #09c);
-
-    border-radius: 2px; 
+	background-image:
+	-webkit-linear-gradient(-45deg, 
+	transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	rgba(0,0, 0, .1) 66%, transparent 66%),
+	-webkit-linear-gradient(top, 
+	rgba(255, 255, 255, .25), 
+	rgba(0, 0, 0, .25)),
+	-webkit-linear-gradient(left, #f44, #09c);
+	
+	border-radius: 2px; 
 	background-size: 35px 20px, 100% 100%, 100% 100%;
 	float: right;
 	margin-top: 10px;
-	
-  }
+}
 
-  #ecbar {
+#ecbar {
 	background-image: linear-gradient(90deg, red, red, RED, green, green);
 	border-radius: 1px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 	width: 1230px;
 	height: 50px;
-	
-  }
+}
 
-
-  .semi-bigText {
+/* Sets the text to 35px */
+.semi-bigText {
 	font-size: 35px;
-  }
-  .imgPaddingLeft {
-	  padding-left: 30px;
-  }
-  .imgPaddingRight {
+}
+.imgPaddingLeft {
+	padding-left: 30px;
+}
+.imgPaddingRight {
 	padding-right: 30px;
-		}
-	.linkAdjustSizeTo35px {
-		font-size: 35px;
-	}
-	#t01 table{
+}
+.linkAdjustSizeTo35px {
+	font-size: 35px;
+}
+
+/* For the table in the dashboard page */
+#t01 table{
 	
 	border: 1px solid black;
 	border-collapse: collapse;
-  }
-  #t01 caption{
+}
+
+/* Caption for the table in the dasboard page */
+#t01 caption{
 	
 	margin-bottom: 70px;
-  }	
-  #t01 th{
-	border: 1px solid black;
-	border-collapse: collapse;
-  }
-  #t01 td{
-	border: 1px solid black;
-	border-collapse: collapse;
-  }
-  th, td {
-	padding: 15px;
-  }
-  th, td {
-	text-align: center;
-  }
-  #t01 {
-	width: 98.5%;
-  }
- .failed{
-	background-color: red;
- }
- .completed{
-	background-color: green;
- }
- .awaiting{
-	background-color: transparent;
- }
+}	
 
-  #t01 th {
+/* Adjust properties for the table */
+#t01 th{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+#t01 td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 15px;
+}
+th, td {
+	text-align: center;
+}
+#t01 {
+	width: 98.5%;
+}
+
+#t01 th {
 	color: white;
 	background-color: black;
-  }
-  .chart {
-	  width: 96%;
-  }
-  .grid-container{
-	  display: grid;
-	  grid-template-columns: 25% 50% 25%;
-	  align-content: center;
-	  grid-gap: 20px;
-	  grid-template-areas: 'left center right';
-  }
-  .item1 { grid-area: left; }
-  .item2 { grid-area: middle; }
-  .item3 { grid-area: right; }
+}
 
+/* coloring for failed exams */
+.failed{
+	background-color: red;
+}
 
-  .noborder_for_table{
+/* coloring for completed exams */
+.completed{
+	background-color: green;
+}
+
+/* coloring for awaiting exams */
+.awaiting{
+	background-color: transparent;
+}
+
+/* Set the chart width to 96% */
+.chart {
+	width: 96%;
+}
+
+/* Grid container for the about me section's 3 arcticles */
+.grid-container{
+	display: grid;
+	grid-template-columns: 25% 50% 25%;
+	align-content: center;
+	grid-gap: 20px;
+	grid-template-areas: 'left center right';
+}
+
+/* The 3 item in the .grid-container */
+.item1 { grid-area: left; }
+.item2 { grid-area: middle; }
+.item3 { grid-area: right; }
+
+/* Makes the border disappear for any table element that uses */
+.noborder_for_table{
 	border: 0px;
-  }
-  /*#profile_left_section{
-	text-align: center; 
-	padding-left: 45px
-  }*/
-  .inside_list_position{
+}
+
+.inside_list_position{
 	list-style-position:inside
-  }
-  .divFlex {
-    display: flex;
+}
+
+/* Flexbox-container for the EC bar and list */
+.divFlex {
+	display: flex;
 	flex-direction: row;
 	position: relative;
 	align-items: center;
-  }
-  
+}
