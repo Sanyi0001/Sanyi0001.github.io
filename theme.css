@@ -294,14 +294,19 @@ padding: 5px;
   }
   .imgPaddingRight {
 	padding-right: 30px;
-}
-.linkAdjustSizeTo35px {
-	font-size: 35px;
-}
-#t01 table{
+		}
+	.linkAdjustSizeTo35px {
+		font-size: 35px;
+	}
+	#t01 table{
+	
 	border: 1px solid black;
 	border-collapse: collapse;
   }
+  #t01 caption{
+	
+	margin-bottom: 70px;
+  }	
   #t01 th{
 	border: 1px solid black;
 	border-collapse: collapse;
@@ -344,10 +349,13 @@ padding: 5px;
   .item2 { grid-area: middle; }
   .item3 { grid-area: right; }
 
-  .eclabel{
-	font-size: 50px;
-	color: rgb(0, 0, 0);
-	float: left;
+  .ecprogress{
+	  width: 70%;
+	  height: 50px;
+	  background-color: white;
+	  position: absolute;
+	  top: 250px;
+	  margin-left: 415px;
   }
   .noborder_for_table{
 	border: 0px;
@@ -358,4 +366,42 @@ padding: 5px;
   }*/
   .inside_list_position{
 	list-style-position:inside
+  }
+  .divFlex {
+    display: flex;
+	flex-direction: row;
+	position: relative;
+  }	
+  .eclabel {
+    padding:5px;
+    border:1px solid #066;
+	background-color:transparent;
+	font-size: 40px;
+  }
+  .ecbarmain{
+	padding:5px;
+    border:1px solid #066;
+	background-color:red;
+	width: 1000px;
+	border-radius: 20px;
+  }
+  .ecbarprogress{
+	padding:5px;
+    border:1px solid #066;
+	background-color:rgb(6, 18, 39);
+	width: 400px; /*Modify this property when get an EC, 1px=0.1%*/
+	height: 45px;
+	border-radius: 20px;
+	position: absolute;
+	left: 15%;
+  }
+  .ecbarover45{
+	padding:5px;
+    border:1px solid #066;
+	background-color:green;
+	width: 300px; 
+	height: 45px;
+	border-radius: 20px;
+	position: absolute;
+	left: 62%;
   }
