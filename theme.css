@@ -261,7 +261,7 @@ a {
 	background-image: linear-gradient(90deg, red, red, red, green, green);
 	border-radius: 1px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
-	width: 1200px; /* Adjust this to set the right walue for the EC-progressbar (12px = 1%) */
+	width: 1225px; 
 	height: 50px;
 }
 
@@ -365,4 +365,11 @@ th, td {
 	flex-direction: row;
 	position: relative;
 	align-items: center;
+}
+.ecboundary{
+	width: 0vmin;
+	height: 30px;
+	left: 1175px;
+	position: absolute;
+	background-color: red;
 }
