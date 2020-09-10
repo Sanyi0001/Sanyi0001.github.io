@@ -6,10 +6,9 @@
 	padding: 16px;
 	font-size: 16px;
 	border: none;
-	position: relative;
-	
-	
+	position: relative;	
 }
+
 .vertical-center {
 	margin-top: 30px;
 	position: relative;
@@ -366,6 +365,8 @@ th, td {
 	position: relative;
 	align-items: center;
 }
+
+/* Visually showing the minimally requied EC (45/60) */
 .ecboundary{
 	width: 0vmin;
 	height: 30px;
