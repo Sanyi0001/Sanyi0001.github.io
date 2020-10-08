@@ -374,3 +374,11 @@ th, td {
 	position: absolute;
 	background-color: red;
 }
+ 
+#tmobile {
+	color: magenta;
+}
+
+.profession {
+	font-size: 150%;
+}
