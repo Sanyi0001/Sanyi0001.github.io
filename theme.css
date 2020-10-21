@@ -62,6 +62,10 @@ img {
 	border-radius: 50%;
 }
 
+.imgFull{
+	border-radius: 0%;
+}
+
 /* Sets de defaults for html and body, disables horizontal overflow ,sets background*/
 html, body {
 	margin: 20;

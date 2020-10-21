@@ -1,0 +1,117 @@
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	position: relative;	
+}
+
+.vertical-center {
+	margin-top: 30px;
+	position: relative;
+	transform: translateY(-50%);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: absolute;
+	display: inline-block;
+}
+
+/* Head of the dropdown */
+.dropdownhead{
+	padding: 0%;
+	margin-top: 25px;
+	margin-left: 5px;
+	position: absolute;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: greenyellow;
+	opacity: 1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 4;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* Makes all image rounded */
+
+
+/* Sets de defaults for html and body, disables horizontal overflow ,sets background*/
+html, body {
+	margin: 20;
+	background-size: cover;
+	overflow-x: hidden;
+	margin:auto;
+	width:100%;
+	min-height: 100%;
+	height: auto;
+	
+	background: linear-gradient(0deg, cyan, blue);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+
+/* Sets the margin property for all lists */
+li {
+	margin: 20px;
+}
+
+
+h1 {
+	font-size:50px
+}
+h2 {
+	font-size: 40px;
+}
+a {
+	font-size: 10px;
+	color: rgb(67, 8, 75);
+}
+
+p{
+    font-size: 20px;
+}
+
+/* Default padding for all elements */
+* {
+	padding: 5px;
+	
+}
+.center {
+    text-align: center;
+    padding: 10px;
+	margin: 10px;
+	height: auto; 
+	text-align: center;
+	
+}
+.left {
+	text-align: left;
+
+}
