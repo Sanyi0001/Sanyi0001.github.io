@@ -387,9 +387,25 @@ th, td {
 }
 
 #revolut {
-	
+	color: purple;
+}
+
+#macaw{
+	color: yellow;
+}
+
+#yoursurprise {
+	color: pink;
+}
+
+#veracode {
+	color: blue;
 }
 
 .profession {
 	font-size: 150%;
+}
+
+.border {
+	border-bottom: 5px dotted #000000;
 }
